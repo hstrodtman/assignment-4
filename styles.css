@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box; 
+}
+
+h1 {
+	height: 300px; 
+	padding: 100px 600px 0px 0px;  
+	font-family: sans-serif; 
+	font-size: 80px;
+	background-color: aqua;	
+}
+
+.nav {
+	display: inline-block; 
+	padding: 15px 30px ; 
+	font-size: 25px; 
+}
+
+#salamander-pic {
+	display: inline-block; 
+	padding: 100px 100px 10px 100px; 
+	height: 500px; 	
+	
+}
+
+
+
