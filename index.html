@@ -3,77 +3,81 @@
     <head>
         <title>My Previous Career</title>
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div class = "wrapper">
-            <h1 class = "head">My Time as a Wildlife Biologist</h1>   
-            <img id = "header-pic" src="images/header-pic.jpg"  alt="me with rat snake">
-            <ul class = "nav">
-                <li class = "nav-item">Herpetology and Small Mammal Technician	</li>
-                <li class = "nav-item">Snowy Plover Technician</li>
-                <li class = "nav-item ">Mammal Technician</li>
-                <li class = "nav-item">Prairie Grouse Research Technician</li>
-                <li class = "nav-item">Graduate Research Assistant</li>         
-            </ul>
+        <main>
+            <div class = "wrapper">
+                <h1 class = "head">My Time as a Wildlife Biologist</h1>   
+                <img id = "header-pic" src="images/header-pic.jpg"  alt="me with rat snake">
+                <ul class = "nav">
+                    <li class = "nav-item"><a href="#herp-link">Herpetology and Small Mammal Technician</a></li>
+                    <li class = "nav-item"><a href="#mammal-link">Mammal Technician</a></li>
+                    <li class = "nav-item"><a href="#chicken-link">Prairie Chicken Research Technician</a></li>
+                    <li class = "nav-item"><a href="#plover-link">Snowy Plover Technician</a></li>
+                    <li class = "nav-item"><a href="#grouse-link">Graduate Research Assistant</a></li>
+                        
+             </ul>
 
-        <div class = "intro">
-            <p id = "intro-text"> From 2008 to 2015 I worked as a wildlife field biologist. During this time I traveled the country working with birds, mammals, reptiles and amphibians. The data that I collected
-                was used to inventory species, make management plans and protect threatened species. </p>
-        </div> 
-        <div class = "herp">
-            <h2 >Herpetology and Small Mammal Technician</h2>
-            <!-- <img src="images/herp.JPG" width = 50% alt="spotted salamander"> --> 
-            <img id = "salamander-pic" src="images/herp2.JPG"  alt="salamander"> 
-            <p id = "herp-text">My favorite position as a wildlife biologist was working on a project in the Missouri Ozarks investigating the impacts of forest management on amphibians, 
-            reptiles and mammals. At this position I used various trapping methods to collect animals and identified, measured and marked the animals before releasing them. 
-            The data I collected was used to determine if different timber harvest strategies affected the number of animals present at a location.</p>
+            <div class = "intro">
+                <p id = "intro-text"> From 2008 to 2015 I worked as a wildlife field biologist. During this time I traveled the country working with birds, mammals, reptiles and amphibians. 
+                The data that I collected was used to inventory species, make management plans and protect threatened species. </p>
+            </div> 
+        
+            <article class = "herp">
+                <h2 class = "body-header" id ="herp-link">Herpetology and Small Mammal Technician</h2>
+                <!-- <img src="images/herp.JPG" width = 50% alt="spotted salamander"> --> 
+                <img id = "salamander-pic" class = "body-pic" src="images/herp2.JPG"  alt="salamander"> 
+                <p id = "herp-text"  class = "body-text">My favorite position as a field biologist was working on a project in the Missouri Ozarks investigating the impacts of forest management on amphibians, 
+                reptiles and mammals. At this position I used various trapping methods to collect animals and identified, measured and marked the animals before releasing them. 
+                This data became part of an ongoing 100 year study designed to test if different timber harvest strategies affected the number of animals present at a location.</p>
 
-        </div>
+            </article>
 
 
-        <div class = "mammal">
-                <h2>Mammal Technician</h2>
-                <!-- <img id = "mammal-pic" src="images/short-tailed shrew.jpg" alt="short-tailed shrew">  -->
-                <img id = "mammal-pic" src="images/mammal.JPG" width = 50% alt="mouse in hand">
-                <p id ="mammal-text">In northen Alabama I worked on a project designed to inventory mammals in the region. I used Sherman traps, game cameras, and ecolocation software to look for small mammals, 
-                large mammals, and bats. Some of the coolest animals I encoutered were an adorable flying squirrel and a very angry chipmunk that nearly chewed through the metal trap he was in!   
-                </p>
-            </div>
+            <article class = "mammal">
+                    <h2 class = "body-header" id ="mammal-link">Mammal Technician</h2>
+                    <!-- <img id = "mammal-pic" src="images/short-tailed shrew.jpg" alt="short-tailed shrew">  -->
+                    <img id = "mammal-pic" class = "body-pic" src="images/mammal.JPG" width = 50% alt="mouse in hand">
+                    <p id ="mammal-text"  class = "body-text">In northern Alabama I worked on a project designed to inventory the mammals of the region. I used Sherman traps (small metal traps), game cameras and echolocation software to look for small mammals, 
+                    large mammals and bats. Some of the coolest animals I encountered were an adorable flying squirrel and a very angry chipmunk that nearly chewed through the metal trap he was in!   
+                    </p>
+            </article>
 
  
-        <div class = "plover">
-            <h2 >Snowy Plover Technician</h2>
-            <img id ="plover-pic" src="images/snowy-plover.JPG" width = 50% alt="snowy plover with chick">
-            <p id = "plover-text">One of my favorite locations to work was on Sanibel Island in Florida. While there, I led a small team researching Snowy Plovers, a threatened shore bird 
-            species. These birds lay their nests directly on sandy ground, which meant I got to walk the beach for work everyday!</p>
+            <article class = "plover">
+                <h2 class = "body-header" id="plover-link">Snowy Plover Technician</h2>
+                <img id ="plover-pic" class = "body-pic" src="images/snowy-plover.JPG" width = 50% alt="snowy plover with chick">
+                <p id = "plover-text"  class = "body-text">One of my favorite locations to work was on Sanibel Island in Florida. While there, I led a small team researching Snowy Plovers, a threatened shorebird 
+                species. We collected data on the bird's nest locations, brood survival and food availability. These birds lay their nests directly on sandy ground, which meant I got to walk the beach for work everyday!</p>
 
+                </article>
+
+
+            <article class = "chicken">
+                <h2 class = "body-header" id ="chicken-link">Prairie Chicken Research Technician</h2>
+                <img id = "chicken-pic" class = "body-pic" src="images/prairie-chicken.JPG" width = 50% alt="prairie-chicken">
+                <p id = "chicken-text"  class = "body-text">Even though it was only for 3 months, my time working in Kansas was hands down my least favorite job of all time due to the LONG hours and low pay. Working for
+                    Kansas State University I collected data for a project looking at the effects of wind power development on greater prairie-chickens. Even though I got 
+                    hands on experience trapping game birds and using radio-telemetry you couldn't pay me enough to work in Kansas again.   
+                </p>
+            </article>
+
+            <article class = "grouse">
+                <h2 class = "body-header" id = "grouse-link">Graduate Research Assistant</h2>
+                <img id = "grouse-pic" class = "body-pic" src="images/stg.jpg" width = 50% alt="sharp-tailed grouse">
+                <p id="grouse-text" class = "body-text">In 2012 I moved to East Lansing, Michigan to pursue a masters in Fisheries and Wildlife at Michigan State University. While there, I work with the Michigan
+                Department of Natural Resources to  create a management strategy for sharp-tailed grouse. I did this by modeling the grouse's habitat use and estimating their 
+                response to alternative habitat and harvest management scenarios. It was at this position that I had my first encountered with programming when I used R statistical software
+                for my analysis.</p>
+            </article>
         </div>
-
-
-        <div class = "chicken">
-            <h2 >Prairie Grouse Research Technician</h2>
-            <img id = "chicken-pic" src="images/prairie-chicken.JPG" width = 50% alt="prairie-chicken">
-            <p id = "chicken-text">Even though it was only for 3 months, my time working in Kansas was hands down my least favorite job of all time due to the LONG hours and low pay. Working for
-                Kansas State University I collected data for a project looking at the effects of wind power development on greater prairie-chickens. Even though I got 
-                hands on experience trapping game birds and using radio-telemetry you couldn't pay me enough to work in Kansas again.   
-            </p>
-        </div>
-
-        
-        <div class = "grouse">
-            <h2>Graduate Research Assistant</h2>
-            <img id = "grouse-pic" src="images/stg.jpg" width = 50% alt="sharp-tailed grouse">
-            <p id="grouse-text">In 2012 I moved to East Lansing, Michigan to pursue a masters in Fisheries and Wildlife at Michigan State University. While there, I work with the Michigan
-            Department of Natural Resources to  create a management strategy for sharp-tailed grouse. I did this by modeling the grouse's habitat use and estimating their 
-            response to alternative habitat and harvest management scenarios. It was at this position that I had my first encounted with programming when I used R statistical software
-            for my analysis.</p>
-        </div>
+    </main>
     
-        </div>
-       
-        
+    <footer>
+        <p>&copy; Heather Strodtman</p>
+    </footer>        
     </body>
 </html>
 
-<!-- uses , <footer>, <main>, <article>,. Uses at least one HTML entity. ex. putting a copyright notice in your footer uses &copy;    -->
