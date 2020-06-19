@@ -1,205 +1,101 @@
 * {
-		font-family: 'Heebo', sans-serif;
-}
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-html, body {
-	width: 100%;
-	height: 100%; 
+	font-family: 'Playfair Display', serif;
+		box-sizing: border-box; 	
 }
 
 body {
 	background-color: rgb(183, 187, 187);
-	}
-
-.wrapper {
-	display: grid; 
-	grid-template-rows: 300px 65px 200px 600px 450px 600px 600px 500px;  
-	grid-template-columns: 1fr 1fr 1fr; 
-}
-
-.head {
-	font-size: 90px;
-	background-color: rgb(122, 172, 165);
-	grid-column: 1 / 4;
-	grid-row: 1;
-	text-align: center; 
-	padding: 85px; 
-	text-shadow: 3px 3px 1px rgb(56, 56, 56);
-}
-
-
-#header-pic {
-	height: 300px;  
-	grid-column: 4 / 5;
-	grid-row: 1;	
-}
-
-.nav {
-	font-size: 20px; 
-	grid-column: 1/5;
-	grid-row: 2;
-	text-align: center;
-	border: 2px solid rgb(39, 38, 38);
-	font-weight: bold;
-}
-
-.nav-item {
-	display: inline-block; 
-	padding: 15px; 
-}
-
-.intro {
-	grid-column: 1 / 5;
-	grid-row: 3;
-	display: grid; 
-	grid-template-columns: 1fr 2fr 1fr ; 
-}
-
-#intro-text {
-	margin: 20px;
-	padding-top: 50px;  
-	font-size: 25px;
-	grid-column: 2 / 3;  
-}
-
-.herp {
-	grid-column: 1 / 5;
-	grid-row: 4;
-	padding-top: 25px;
-	display: grid; 
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 100px 800px; 
-	padding-bottom: 50px; 
-}
-
-#salamander-pic {
-	height: 500px; 
-	grid-row: 2; 
-	border-radius: 25px;
-	
-}
-
-.mammal {
-	grid-column: 1 / 5;
-	grid-row: 5;
-	display: grid; 
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 100px 800px; 
-	padding-bottom: 50px; 
-}
-
-#mammal-text {
-	grid-column: 2 / 4;
-	padding: 80px 155px 0px 155px; 
-}
-
-#mammal-link{
-	grid-row: 1; 
-}
-
-.grouse {
-	grid-column: 1 / 5;
-	grid-row: 8;
-	display: grid; 
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 100px 800px; 
-	padding-bottom: 50px; 
-}
-
-.plover {
-	grid-column: 1 / 5;
-	grid-row: 7; 
-	display: grid; 
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 100px 800px; 
-	padding-bottom: 50px; 
-}
-
-.chicken {
-	grid-column: 1 / 5;
-	grid-row: 6;
-	display: grid; 
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 100px 800px; 
-}
-
-
-.body-text {
-	padding: 100px 155px 0px 155px; 
-	font-size: 25px;
-	grid-column: 2 / 4 ;
-	line-height: 1.2;
-}
-
-.body-pic {
-	padding-left: 20px;
-	border-radius: 25px;
-	grid-column: 1 / 2;
-	width: 100%;
-}
-
-.body-header {
-	grid-column: 1 / 4;
-	text-align: center; 
-	padding-top:50px;
-	font-size: 32px;  
 }
 
 a {
 	color: black; 
 }
 
+li {
+	list-style-type: none;
+}
+
+
+.header-text {
+ max-width: 100%;
+ margin: 0px; 
+ padding: 0px; 
+ display: inline-block;
+
+}
+
+.header {
+	display: inline-block;
+	justify-content: center;
+	text-align: center; 
+	max-width: 100%; 
+	margin: 0px; 
+	padding: 0px; 
+	border-bottom: 2px black solid;
+	/* background-color: rgb(242, 242, 243); */
+}
+
+.header-title {
+	padding:  4% 0px  4% 0px; 
+	margin: 0px; 
+	justify-content: center;
+	font-size: 4rem; 
+	background-image: url("images/agriculture-countryside-crop-cropland-388415.jpg");
+}
+
+a,
+.nav-item, 
+.nav-bar,
+.navbar {
+	margin: 0px; 
+	padding: 0px; 
+}
+
+.navbar {
+	font-size: 2rem; 
+	justify-content: space-around;
+	border-top: 2px solid black;
+	width: 100%; 
+	background-color: rgb(160, 160, 158); 
+}
+
+ .intro-text {
+	margin-top: 20px;  
+}
+
+.body-header {
+ font-size: 2rem; 
+ text-align: center;
+ margin: 20px 0px;
+}
+
+.body-pic {
+	max-width: 80%;
+	border-radius: 20px;
+	display: block; 
+	margin: auto; 
+	padding-bottom: 10px;
+
+} 
+
+.content {
+	max-width: 70%; 
+	justify-content: center;
+	padding: 20px;
+	font-size: 1.4rem;
+	line-height: 2; 
+}
+
+/* .section-content {
+	justify-content: center;
+} */
+
 footer {
-	position: relative;
-	left: 45%; 
-	top: 120px; 
+	text-align: center; 
+	margin-top: 50px;  
+  }
+
+  hr {
+	border: 1px solid rgb(90, 94, 90);
   }
 
